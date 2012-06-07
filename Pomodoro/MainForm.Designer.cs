@@ -46,16 +46,16 @@ namespace Pomodoro
             this.AlarmMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TrayIcon = new System.Windows.Forms.NotifyIcon(this.components);
             this.TrayMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.ChiudiTrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.StartTrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.StopTrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.TrayMenuSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.RipristinaTrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.TrayMenuSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.StartTrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Start25TrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Start15TrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Start5TrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Start2TrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.StopTrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.TrayMenuSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            this.ChiudiTrayMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.Commands.SuspendLayout();
             this.MainMenu.SuspendLayout();
             this.TrayMenu.SuspendLayout();
@@ -65,7 +65,7 @@ namespace Pomodoro
             // 
             this.Time.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left)
                         | System.Windows.Forms.AnchorStyles.Right)));
-            this.Time.Font = new System.Drawing.Font("Forte", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Time.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Time.Location = new System.Drawing.Point(12, 32);
             this.Time.Name = "Time";
             this.Time.Size = new System.Drawing.Size(318, 94);
@@ -250,73 +250,73 @@ namespace Pomodoro
             this.TrayMenuSeparator2,
             this.ChiudiTrayMenuItem});
             this.TrayMenu.Name = "TrayMenu";
-            this.TrayMenu.Size = new System.Drawing.Size(153, 214);
-            // 
-            // ChiudiTrayMenuItem
-            // 
-            this.ChiudiTrayMenuItem.Name = "ChiudiTrayMenuItem";
-            this.ChiudiTrayMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.ChiudiTrayMenuItem.Text = "Chiudi";
-            this.ChiudiTrayMenuItem.Click += new System.EventHandler(this.ChiudiTrayMenuItem_Click);
-            // 
-            // StartTrayMenuItem
-            // 
-            this.StartTrayMenuItem.Name = "StartTrayMenuItem";
-            this.StartTrayMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.StartTrayMenuItem.Text = "#Start";
-            this.StartTrayMenuItem.Click += new System.EventHandler(this.Start_Click);
-            // 
-            // StopTrayMenuItem
-            // 
-            this.StopTrayMenuItem.Name = "StopTrayMenuItem";
-            this.StopTrayMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.StopTrayMenuItem.Text = "#Stop";
-            this.StopTrayMenuItem.Click += new System.EventHandler(this.Stop_Click);
-            // 
-            // TrayMenuSeparator2
-            // 
-            this.TrayMenuSeparator2.Name = "TrayMenuSeparator2";
-            this.TrayMenuSeparator2.Size = new System.Drawing.Size(149, 6);
+            this.TrayMenu.Size = new System.Drawing.Size(130, 192);
             // 
             // RipristinaTrayMenuItem
             // 
             this.RipristinaTrayMenuItem.Name = "RipristinaTrayMenuItem";
-            this.RipristinaTrayMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.RipristinaTrayMenuItem.Size = new System.Drawing.Size(129, 22);
             this.RipristinaTrayMenuItem.Text = "Ripristina";
             this.RipristinaTrayMenuItem.Click += new System.EventHandler(this.RipristinaTrayMenuItem_Click);
             // 
             // TrayMenuSeparator1
             // 
             this.TrayMenuSeparator1.Name = "TrayMenuSeparator1";
-            this.TrayMenuSeparator1.Size = new System.Drawing.Size(149, 6);
+            this.TrayMenuSeparator1.Size = new System.Drawing.Size(126, 6);
+            // 
+            // StartTrayMenuItem
+            // 
+            this.StartTrayMenuItem.Name = "StartTrayMenuItem";
+            this.StartTrayMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.StartTrayMenuItem.Text = "#Start";
+            this.StartTrayMenuItem.Click += new System.EventHandler(this.Start_Click);
             // 
             // Start25TrayMenuItem
             // 
             this.Start25TrayMenuItem.Name = "Start25TrayMenuItem";
-            this.Start25TrayMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.Start25TrayMenuItem.Size = new System.Drawing.Size(129, 22);
             this.Start25TrayMenuItem.Text = "#25 min";
             this.Start25TrayMenuItem.Click += new System.EventHandler(this.Start25_Click);
             // 
             // Start15TrayMenuItem
             // 
             this.Start15TrayMenuItem.Name = "Start15TrayMenuItem";
-            this.Start15TrayMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.Start15TrayMenuItem.Size = new System.Drawing.Size(129, 22);
             this.Start15TrayMenuItem.Text = "#15 min";
             this.Start15TrayMenuItem.Click += new System.EventHandler(this.Start15_Click);
             // 
             // Start5TrayMenuItem
             // 
             this.Start5TrayMenuItem.Name = "Start5TrayMenuItem";
-            this.Start5TrayMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.Start5TrayMenuItem.Size = new System.Drawing.Size(129, 22);
             this.Start5TrayMenuItem.Text = "#5 min";
             this.Start5TrayMenuItem.Click += new System.EventHandler(this.Start5_Click);
             // 
             // Start2TrayMenuItem
             // 
             this.Start2TrayMenuItem.Name = "Start2TrayMenuItem";
-            this.Start2TrayMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.Start2TrayMenuItem.Size = new System.Drawing.Size(129, 22);
             this.Start2TrayMenuItem.Text = "#2 min";
             this.Start2TrayMenuItem.Click += new System.EventHandler(this.Start2_Click);
+            // 
+            // StopTrayMenuItem
+            // 
+            this.StopTrayMenuItem.Name = "StopTrayMenuItem";
+            this.StopTrayMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.StopTrayMenuItem.Text = "#Stop";
+            this.StopTrayMenuItem.Click += new System.EventHandler(this.Stop_Click);
+            // 
+            // TrayMenuSeparator2
+            // 
+            this.TrayMenuSeparator2.Name = "TrayMenuSeparator2";
+            this.TrayMenuSeparator2.Size = new System.Drawing.Size(126, 6);
+            // 
+            // ChiudiTrayMenuItem
+            // 
+            this.ChiudiTrayMenuItem.Name = "ChiudiTrayMenuItem";
+            this.ChiudiTrayMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.ChiudiTrayMenuItem.Text = "Chiudi";
+            this.ChiudiTrayMenuItem.Click += new System.EventHandler(this.ChiudiTrayMenuItem_Click);
             // 
             // MainForm
             // 
